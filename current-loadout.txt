@@ -1,0 +1,10 @@
+"Select All Weapon / Armor Items on current char not equipped
+Useful for clearing inventory"
+or
+(
+    is:incurrentchar -is:equipped 
+    (
+        is:armor 
+        or is:weapon
+    )  
+)
