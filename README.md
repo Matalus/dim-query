@@ -1,2 +1,3 @@
 # dim-query
-Queries for Destiny Item Manager
+
+A Collection of Queries for Destiny Item Manager

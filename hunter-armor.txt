@@ -1,0 +1,14 @@
+"Find Hunter Armor | 
+Recovery and Mobility > 12
+Recovery or Mobility > 20
+Base Stat Value >= 65"
+or
+    (
+        (
+            stat:mobility:>12 
+            and stat:recovery:>12
+        ) 
+        or stat:mobility:>20 
+        or stat:recovery:>20
+    )  
+and basestat:total:>65

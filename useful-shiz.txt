@@ -1,0 +1,33 @@
+
+("Find Good Shiz | 
+Highlights weapons with useful perk combos" 
+or 
+    (
+        (
+            "RELOAD | AIM PERKS"
+            or perkname:"subsistence" 
+            or perkname:"outlaw" 
+            or perkname:"killing wind" 
+            or perkname:"dynamic sway reduction" 
+            or perkname:"feeding frenzy"
+            or perkname:"tunnel vision"
+            or perkname:"heating up"
+            or perkname:"under pressure"
+
+        ) 
+    and 
+        (
+            "DAMAGE | ABILITY PERKS"
+            or perkname:"frenzy" 
+            or perkname:"rampage" 
+            or perkname:"headstone" 
+            or perkname:"demolitionist" 
+            or perkname:"kill clip"
+            or perkname:"tap the trigger"
+            or perkname:"wellspring"
+            or perkname:"explosive payload"
+            or perkname:"vorpal weapon"
+        )
+    )
+)
+
