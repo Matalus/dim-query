@@ -8,5 +8,6 @@ or
         or tag:favorite 
         or is:hasnotes 
         or tag:junk
+        or tag:archive
     )
 )
