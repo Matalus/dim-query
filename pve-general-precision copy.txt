@@ -1,0 +1,35 @@
+
+("PVE General Handcannons & Scout / Pulse Rifles | 
+Highlights weapons with useful perk combos" 
+or 
+    (
+        (
+            "RELOAD | AIM PERKS"
+            or perkname:"subsistence" 
+            or perkname:"threat detector"
+            or perkname:"surplus"
+            or perkname:"field prep"
+            or perkname:"outlaw"
+        ) 
+    and 
+        (
+            "DAMAGE | ABILITY PERKS"
+            or perkname:"adrenaline junkie"
+            or perkname:"frenzy" 
+            or perkname:"rampage" 
+            or perkname:"tap the trigger"
+            or perkname:"explosive payload"
+            or perkname:"vorpal weapon"
+            or perkname:"timed payload"
+            or perkname:"kill clip"
+        )
+    )
+    and
+    (
+        "SELECT ARCHETYPE"
+        or is:handcannon
+        or is:scoutrifle
+        or is:pulserifle
+    )
+)
+

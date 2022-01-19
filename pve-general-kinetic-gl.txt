@@ -1,0 +1,30 @@
+
+("PVE General Kinetic Grenade Launchers | 
+Highlights weapons with useful perk combos" 
+or 
+    (
+        (
+            "RELOAD | AIM PERKS"
+            or perkname:"auto-loading holster"
+            or perkname:"slideshot"
+            or perkname:"ambitious assassin"
+
+        ) 
+    and 
+        (
+            "DAMAGE | ABILITY PERKS"
+            or perkname:"frenzy" 
+            or perkname:"rampage" 
+            or perkname:"danger zone"
+            or perkname:"vorpal weapon"
+            or perkname:"one for all"
+            or perkname:"demolitionist"
+        )
+    )
+    and
+        (
+            "SELECT ARCHETYPE"
+            or is:grenadelauncher
+        )
+)
+

@@ -1,0 +1,12 @@
+"find junk to be sharded" 
+or 
+(
+    is:dupelower 
+    -is:wishlist 
+    -(
+        tag:keep 
+        or tag:favorite 
+        or is:hasnotes 
+        or tag:junk
+    )
+)
